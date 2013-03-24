@@ -10,10 +10,13 @@ namespace Client {
 
 		static void Main(string[] args) {
 			
-			localhost.HelloIndigoServiceClient proxy = new Client.localhost.HelloIndigoServiceClient();
-			string s = proxy.HelloIndigo();
+			// with Servjce References
+			//localhost.HelloIndigoServiceClient proxy = new Client.localhost.HelloIndigoServiceClient();
+			using (HelloIndigoServiceClient proxy = new HelloIndigoServiceClient()) {
+				string s = proxy.HelloIndigo();
+				Console.WriteLine(s);
+			}
 
-			Console.WriteLine(s);
 			Console.WriteLine("Press <ENTER> to terminate Client.");
 			Console.ReadLine();
 		}
