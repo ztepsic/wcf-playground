@@ -1,0 +1,15 @@
+# scvutil.exe
+#	- to generate code and configuration settings from metadata
+#	- to generate metadata code and configuration
+# Visual Studio 20xx Command Prompt
+#
+
+# generate proxy class (code) and configuration settings from metadata exchange endpoint
+svcutil d:/<destination_path> /o:<class_name>.cs /config:<configuration_name(app)>.config <metadata_URL>
+
+
+# export service metadata
+svcutil /d:<destination_path> /t:metadata <metadata_URL>
+
+# generate application configuration and proxy class from exported (offiline) service metadata
+svcutil /d:<destination_path> /o:<class_name>.cs /config:<configuration_name(app)>.config <path_to_wsdl>\.*wsdl >path_to_xsd>\*.xsd
