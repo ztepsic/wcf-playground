@@ -1,0 +1,9 @@
+# in Visual Studio command prompt (sometimes as Administrator)
+
+installutil.exe <path_to_windows_service>
+
+# uninstall method 1
+installutil.exe <path_to_windows_service> /u
+
+# uninstall method 2
+sc delete <service-name>

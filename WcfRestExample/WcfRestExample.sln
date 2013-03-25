@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRestExample.Services", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRestExample.ConsoleAppHost", "WcfRestExample.ConsoleAppHost\WcfRestExample.ConsoleAppHost.csproj", "{6DC950AE-2A56-4D20-840A-5216AD412536}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRestExample.WindowsServiceHost", "WcfRestExample.WindowsServiceHost\WcfRestExample.WindowsServiceHost.csproj", "{E0C70357-973D-4A2D-B686-E9D8C5939F43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{6DC950AE-2A56-4D20-840A-5216AD412536}.Release|Mixed Platforms.Build.0 = Release|x86
 		{6DC950AE-2A56-4D20-840A-5216AD412536}.Release|x86.ActiveCfg = Release|x86
 		{6DC950AE-2A56-4D20-840A-5216AD412536}.Release|x86.Build.0 = Release|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Debug|x86.ActiveCfg = Debug|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Debug|x86.Build.0 = Debug|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Release|Any CPU.ActiveCfg = Release|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Release|x86.ActiveCfg = Release|x86
+		{E0C70357-973D-4A2D-B686-E9D8C5939F43}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
