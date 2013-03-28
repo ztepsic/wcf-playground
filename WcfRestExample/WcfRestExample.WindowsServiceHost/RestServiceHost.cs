@@ -16,8 +16,6 @@ namespace WcfRestExample.WindowsServiceHost {
 		// Add reference for System.ServiceModel.Web for WebServiceHost
 		private ServiceHost serviceHost;
 
-		private System.Threading.Thread thread;
-
 		public RestServiceHost() {
 			InitializeComponent();
 		}

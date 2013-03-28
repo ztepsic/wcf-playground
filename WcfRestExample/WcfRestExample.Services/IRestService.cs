@@ -22,7 +22,7 @@ namespace WcfRestExample.Services {
 		//[WebGet(UriTemplate = "get-current-time")] // HTTP-GET
 		[WebInvoke(Method = "GET", UriTemplate = "get-current-time", ResponseFormat = WebMessageFormat.Xml, RequestFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)] // Any HTTP method, default POST
 		[Description("Returns current datetime")]
-		string GetCurrentTime();
+		CurrentTimeData GetCurrentTime();
 
 	}
 }
